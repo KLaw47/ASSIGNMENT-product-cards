@@ -2,3 +2,38 @@ body{
   background-color: bisque;
   color: darkolivegreen;
 }
+
+.cards {
+  display:flex;
+  flex-direction:row;
+  width:100%;
+  flex-wrap:wrap;
+}
+
+@media (min-width: 48em) {
+  .columns {
+    flex-wrap: nowrap;
+  }
+}
+
+.card {
+ margin: 20px;
+}
+.card-body {
+  font-weight: bold;
+}
+h2 {
+  text-align: center;
+  border: solid 1px lightblue;
+}
+ .list-group-item {
+   background-color: darkgray;
+   color: yellow;
+   font-weight: bold;
+ }
+.pricing {
+  font-weight: bold;
+}
+.card-text {
+  font-weight: normal;
+}
