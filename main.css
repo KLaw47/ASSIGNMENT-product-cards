@@ -18,8 +18,22 @@ body{
 
 .card {
  margin: 20px;
-
 }
-.avail {
-  
+.card-body {
+  font-weight: bold;
+}
+h2 {
+  text-align: center;
+  border: solid 1px lightblue;
+}
+ .list-group-item {
+   background-color: darkgray;
+   color: yellow;
+   font-weight: bold;
+ }
+.pricing {
+  font-weight: bold;
+}
+.card-text {
+  font-weight: normal;
 }
